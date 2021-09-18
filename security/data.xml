@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record model="payment.acquirer" id="payment_acquirer_alipay">
+            <field name="name">AliPay</field>
+            <field name="image_128" type="base64" file="zw_payment_alipay/static/description/icon.png"/>
+            <field name="provider">alipay</field>
+            <field name="state">test</field>
+        </record>
+
+        <record model="payment.icon" id="payment_icon_alipay">
+            <field name="name">Alipay</field>
+            <field name="acquirer_ids" eval="[(4,ref('payment_acquirer_alipay'))]"/>
+            <field name="image" type="base64" file="zw_payment_alipay/static/src/image/alipay.png"/>
+        </record>
+    </data>
+</odoo>
