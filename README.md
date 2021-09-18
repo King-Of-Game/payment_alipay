@@ -33,7 +33,7 @@ odoo = 13.0 / 14.0
 
 ### 授权认证部分
 
-![](C:\Users\jack\Desktop\company\payment_alipay\static\src\image\config1.png)
+![demo](static/src/image/config1.png)
 
 1. 设置支付方式时，有四个为必填项。
 
@@ -41,19 +41,31 @@ odoo = 13.0 / 14.0
 
    - 配置成功后把应用私钥和支付宝公钥的文本内容，按照第二步写入.txt文件中，再直接修改后缀为.pem
 
-   ![](C:\Users\jack\Desktop\company\payment_alipay\static\src\image\config2.png)
+   ![demo](static/src/image/config2.png)
 
    2、我们这里的应用私钥和支付宝公钥采用上传.pem文件的方式，所以有严格的格式要求
 
-   ![](C:\Users\jack\Desktop\company\payment_alipay\static\src\image\config3.png)
+   ![demo](static/src/image/config3.png)
 
    
 
-   ![](C:\Users\jack\Desktop\company\payment_alipay\static\src\image\config4.png)
+   ![demo](static/src/image/config4.png)
 
    
 
 ### 基础配置
 
 - 付款日记账这里设置为我们这个模块（这是必填项）
-- ![](C:\Users\jack\Desktop\company\payment_alipay\static\src\image\config5.png)
+- ![demo](static/src/image/config5.png)
+
+#  结语
+
+如果觉得对你有帮助，可以请作者喝瓶怡宝，哈哈~
+
+- 微信
+
+<img src="static/src/image/receive1.png" alt="demo" style="zoom:63%;" />
+
+- 支付宝
+
+<img src="static/src/image/receive2.png" alt="demo" style="zoom:60%;" />
