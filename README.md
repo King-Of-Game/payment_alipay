@@ -12,6 +12,7 @@ odoo 支付宝支付模块
 注意：本模块不兼容官方支付宝模块，如果已安装了官方模块(odoo/addons/payment_alipay），请先卸载再安装本模块。
 
 ## Requirements
+pip install alipay_sdk
 
 python >= 3.6
 
